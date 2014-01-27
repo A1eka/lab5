@@ -73,7 +73,7 @@ public class Orb extends Body{
     
     @Override
     public String toString(){
-        return "id= "+this.getId()+", "+this.getName()+"\n"+"Диаметр: "+this.getHig()+"\n"+"Длин окружности: "+this.getLengh()+"\n"+"Координаты центра: ("+this.getX() +" , "+this.getY()+")"+"\n"+"S=: "+this.getArea()+" V=: "+this.getVolume()+"\n";
+        return "id= "+this.getId()+", "+this.getName()+"\n"+getTime()+"\n"+"Диаметр: "+this.getHig()+"\n"+"Длин окружности: "+this.getLengh()+"\n"+"Координаты центра: ("+this.getX() +" , "+this.getY()+")"+"\n"+"S=: "+this.getArea()+" V=: "+this.getVolume()+"\n";
        
 
     }

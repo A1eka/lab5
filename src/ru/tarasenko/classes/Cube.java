@@ -52,6 +52,12 @@ public class Cube extends Body{
     
     @Override
     public String toString(){
-        return "id= "+this.getId()+", "+this.getName()+"\n"+"Ребро: "+this.getHig()+"\n"+"Сумма рёбер: "+this.getSum()+"\n"+"Длина диагонали: "+this.getDiag()+"\n"+"S=: "+this.getArea()+" V=: "+this.getVolume()+"\n";
+        return "id= "+this.getId()+", " +this.getName()+"\n"+
+			getTime()+"\n"+
+		      "Ребро: "+this.getHig()+"\n"+
+		      "Сумма рёбер: "+this.getSum()+"\n"+
+		      "Длина диагонали: "+this.getDiag()+"\n"+
+		      "S=: "+this.getArea()+
+		      " V=: "+this.getVolume()+"\n";
     }
 }

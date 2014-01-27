@@ -67,7 +67,7 @@ public class Cylinder extends Body {
     
     @Override
     public String toString(){
-        return "id= "+this.getId()+", "+this.getName()+"\n"+"Высота: "+this.getHig()+"\n"+"Радиус: "+this.getRad()+"\n"+"Диагональ: "+this.getDiag()+"\n"+ "Площадь тела вращения: "+this.getArea_Body()+"\n"+"S=: "+this.getArea()+" V=: "+this.getVolume()+"\n";
+        return "id= "+this.getId()+", "+this.getName()+"\n"+getTime()+"\n"+"Высота: "+this.getHig()+"\n"+"Радиус: "+this.getRad()+"\n"+"Диагональ: "+this.getDiag()+"\n"+ "Площадь тела вращения: "+this.getArea_Body()+"\n"+"S=: "+this.getArea()+" V=: "+this.getVolume()+"\n";
     }
 
 }

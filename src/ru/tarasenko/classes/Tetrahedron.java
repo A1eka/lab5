@@ -67,7 +67,7 @@ public class Tetrahedron extends Body{
     
     @Override
     public String toString(){
-        return "id= "+this.getId()+", "+this.getName()+"\n"+"Ребро: "+this.getEdge()+"\n"+"Высота: "+this.getHig()+"\n"+"Сумма рёбер: "+this.getSum()+"\n"+" Площадь грани: "+this.getArea_surf()+"\n"+"S=: "+this.getArea()+" V=: "+this.getVolume()+"\n";
+        return "id= "+this.getId()+", "+this.getName()+"\n"+getTime()+"\n"+"Ребро: "+this.getEdge()+"\n"+"Высота: "+this.getHig()+"\n"+"Сумма рёбер: "+this.getSum()+"\n"+" Площадь грани: "+this.getArea_surf()+"\n"+"S=: "+this.getArea()+" V=: "+this.getVolume()+"\n";
     }
 
 }
