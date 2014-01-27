@@ -37,8 +37,8 @@ public class Lab5 {
             System.out.println("2 - по убыванию id");
             System.out.println("3 - по возраcтанию имени");
             System.out.println("4 - по убыванию имени");
-            System.out.println("5 - по возрастанию высоты");
-            System.out.println("6 - по убыванию высоты");            
+            System.out.println("5 - по возрастанию даты");
+            System.out.println("6 - по убыванию даты");            
             System.out.println("7 - по возрастанию объема");
             System.out.println("8 - по убыванию объема");
             System.out.println("9 - увеличть объем в заданное число раз");
@@ -76,6 +76,7 @@ public class Lab5 {
                 System.out.println(b);
             }
         }
+         
             else if (mode.equals("7")||mode.equals("8")){//по V
             sortMode=3;//по id
             Collections.sort(list,new SortMode(sortUp,sortMode));

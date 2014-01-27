@@ -26,8 +26,7 @@ public class SortMode implements Comparator<Body> {
              res=b1.getName().compareTo(b2.getName());
             }
     else if (sortMode ==2){
-            if (b1.getHig()>b2.getHig()) res=1;
-            else if (b1.getHig()<b2.getHig()) res=-1;
+            res = b1.getTime().compareTo(b2.getTime());
             }
     else{
         if (b1.getVolume()>b2.getVolume()) res=1;
