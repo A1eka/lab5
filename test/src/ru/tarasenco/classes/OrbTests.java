@@ -36,6 +36,14 @@ public class OrbTests {
         l= 4*Math.PI;
         assertEquals(l, new Orb(4,l,1,1).getLengh(), 0.01);
     }
+    /**
+     * Тест метод getHig класс Orb
+     */
+    @Test
+    public void testGetHig() {
+        System.out.println("getHig");
+        assertEquals(4.0, new Orb(4,12,1,1).getHig(), 0.00001);
+    }
     
     
 }
